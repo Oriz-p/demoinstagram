@@ -1,0 +1,285 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+    
+  }
+  
+  p{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+  }
+    
+  .frames{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+  }
+  .frame{
+    width:25rem;
+    height:100vh;
+    background:whitesmoke;
+    position: relative;
+    margin: 0 auto;
+    overflow-y: auto;
+    line-height: 1.5rem;
+    
+  }
+  .top-bar{
+    height:16vh;
+    width:100%;
+    background: white;
+    position:sticky;
+    top:0;
+    z-index:10;
+  }
+  
+  .left-side{
+    display:inline-block;
+  }
+  .left-side img{
+    margin:auto 8px;
+  }
+  .top-bar img{
+    width:auto;
+    height:auto;
+    max-width: 2.8vw;
+    max-height: 3.8vh;
+    margin-left:10px;
+    
+  }
+  
+  .time{
+    margin-left:15px;
+  }
+  
+  .battery{
+    margin-right:10px;
+  }
+  .two-icons{
+    margin-right:10px;
+  }
+  .company{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:700;
+  }
+  
+  .Instagram{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+  }
+  
+  
+  .grey{
+    color:rgb(133, 142, 145);
+  }
+  .picture-div img{
+    height:auto;
+    width:auto;
+    max-height:70px;
+    max-width:70px;
+    border-radius:50%;
+    border:2.5px solid red;
+    padding:1.5px;
+  }
+  
+  .picture-div .names{
+    display: block;
+    margin:0 10px 10px;
+    text-align:center;
+    font-size:12px;
+    font-weight:600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  
+  
+  .main-picture img{
+    width:100%;
+    height:100%;
+  } 
+  
+  .main-picture{
+    background: white;
+  }
+  .heart{
+      position: absolute;
+      margin:auto;
+      top:50%;
+      right:0;
+      bottom:0;
+    left:0;
+    background-color:whitesmoke;
+    height:50px;
+    width:50px;
+    z-index:3;
+    opacity:0.6;
+    transform: rotate(-45deg);
+  }
+  
+  .heart::after{
+    background-color:whitesmoke;
+    content:"";
+    border-radius:50%;
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0px;
+    left:25px;
+  }
+  
+    .heart::before{
+      background-color:whitesmoke;
+      content:"";
+      border-radius:50%;
+      position:absolute;
+      width:50px;
+      height:50px;
+      top:-25px;
+      left:0px;
+    }
+  
+  .picture-div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    overflow-x:hidden;
+    margin:3px 0;
+    background: white;
+  }
+  
+  .lower-slide{
+    background: white;
+  }
+  
+  .beneath{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin:3px 0;
+  }
+  .beneath img{
+    width:auto;
+    height:auto;
+    max-width: 2.8vw;
+    max-height: 3.8vh;
+    margin-left:10px;
+    margin-right:10px;
+  }
+  .love{
+    display: inline;
+    margin:5px 0;
+  }
+  .slider-option{
+    margin-right:50px;
+  }
+  .slider-option img{
+    width:auto;
+    height:auto;
+    max-width: 6px;
+    max-height: 6px;
+    margin-left:-8px;
+  }
+  .likes-quote{
+    margin:0 15px;
+  }
+  
+  .translation{
+    margin-left:15px;
+  }
+  
+  .base-bar{
+    position: sticky;
+    bottom:0;
+    height:12vh;
+    width:100%;
+    background: white;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-content: center;
+    z-index: 10;
+  }
+  
+  .page-number{
+    position: relative;
+    background: black;
+    color:white;
+    height: 30px;
+    top:-70vh;
+    left:300px;
+    width:30px;
+    border-radius:5px;
+    text-align: center;
+    
+  }
+  
+  .page-number p{
+    font-weight: 400;
+  }
+  
+  .best-friend{
+    background: black;
+    height: 10vh;
+    top:-20vh;
+    left:200px;
+    width:100px;
+    color:white;
+    clip-path: polygon(49% 0, 66% 38%, 100% 39%, 100% 100%, 0 100%, 0 39%, 33% 38%);
+    border-radius:2px;
+    position: relative;
+   } 
+    
+  @media screen and (max-width:400px){
+  .best-friend{
+    height:11vh;
+    left:130px;
+  }
+  }
+  
+  .profile img{
+    width:auto;
+    height:auto;
+    max-width:30px;
+    max-height:30px;
+    position: absolute;
+    top:79vh;
+    left:2vw;
+    background: white;
+    border-radius:25%;
+    padding:1px;
+  }
+  
+  .best-friend p{
+    font-size:18px;
+    text-align: center;
+    font-weight: 300;
+    
+  }
+  
+  
+  .marinad{
+    color:rgb(9, 49, 95);
+  }
+  
+  .ago{
+    color:rgb(124, 122, 122);
+  }
+  
+  .base-bar img{
+    width:auto;
+    height:auto;
+    max-width:30px;
+    max-height:30px;
+    top:0;
+    bottom:0;
+    margin:auto;
+    right:15%;
+  }
+  
+  
+  
