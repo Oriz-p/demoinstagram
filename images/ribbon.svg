@@ -1,0 +1,9 @@
+<svg viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink"
+width="256" height="256">
+  <title>Bookmark Ribbon</title>
+  <desc>A line styled icon from Orion Icon Library.</desc>
+  <path d="M11 2v57.7l22.1-13.4L55 59.7V2H11z"
+  stroke-width="3" stroke-miterlimit="10" stroke="#202020" fill="none" data-name="layer1"
+  stroke-linejoin="round" stroke-linecap="round"></path>
+</svg>
